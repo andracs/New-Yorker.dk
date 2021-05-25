@@ -6,6 +6,7 @@
 - Domain Model = DM
 - System diagram = SD
 - System Sequence diagram = SSD
+- FURPS+ = FURPS
 
 
 ## Naming convention/navngivningskonvention
