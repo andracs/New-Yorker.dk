@@ -14,4 +14,4 @@
 - Forkortelse af mappenavn, underscore, forkortelse af artefakt, underscore, artefaktnavn.filtype.
 
 <br> Eks. for denne mappe: <br/> 
-- PM01_RMP01_RiskManagementPlan.md
+- PM01_GC_GroupContract.md
