@@ -7,6 +7,7 @@
 - System diagram = SD
 - System Sequence diagram = SSD
 - FURPS+ = FURPS
+- Operation contract = OC
 
 
 ## Naming convention/navngivningskonvention
