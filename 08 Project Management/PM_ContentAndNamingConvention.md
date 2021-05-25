@@ -5,6 +5,7 @@
 - Measurement plan = MP
 - Business case = BC
 - Group contract = GC
+- Questions for business meetings = QBM
 
 
 ## Naming convention/navngivningskonvention
