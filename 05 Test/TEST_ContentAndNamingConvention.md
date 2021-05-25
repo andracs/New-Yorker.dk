@@ -9,4 +9,4 @@
 - Forkortelse af mappenavn, underscore, forkortelse af artefakt, underscore, artefaktnavn.filtype.
 
 <br> Eks. for denne mappe: <br/> 
-- TEST01_TC01_TestCase01ForUC01.vsdx 
+- TEST01_TC01_TestCase01ForUC01.md
