@@ -1,7 +1,5 @@
 ## Content/Indhold for mappen Business Modeling 
-- Visions dokument = VD 
-- FURPS+ = FURPS
-- Use case diagram = UCD
+- 
 
 
 ## Naming convention/navngivningskonvention
