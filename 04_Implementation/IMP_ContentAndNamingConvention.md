@@ -1,4 +1,4 @@
-## Content/Indhold for mappen Design
+## Content/Indhold for mappen Implementation
 - Model
 - View
 - Logic
