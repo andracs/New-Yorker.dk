@@ -4,6 +4,7 @@
 - Risk management plan = RMP
 - Measurement plan = MP
 - Business case = BC
+- Group contract = GC
 
 
 ## Naming convention/navngivningskonvention
