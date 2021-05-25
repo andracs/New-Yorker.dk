@@ -15,4 +15,4 @@
 - Forkortelse af mappenavn, underscore, forkortelse af artefakt, underscore, artefaktnavn.filtype.
 
 <br> Eks. for denne mappe: <br/> 
-- REQ01_UC01_UseCase01.vsdx 
+- REQ01_AD01_ActivityDiagram01.vsdx 
