@@ -1,5 +1,5 @@
 ## Content/Indhold for mappen Business Modeling 
-- 
+- Vision document = VD
 
 
 ## Naming convention/navngivningskonvention
@@ -8,4 +8,4 @@
 - Forkortelse af mappenavn, underscore, forkortelse af artefakt, underscore, artefaktnavn.filtype.
 
 <br> Eks. for denne mappe: <br/> 
-- BM01_UCD_UseCaseDiagram.vsdx 
+- BM01_VD_VisionDocument.md
