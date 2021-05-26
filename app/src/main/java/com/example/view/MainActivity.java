@@ -1,12 +1,18 @@
 package com.example.view;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
 import android.view.View;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.new_yorkerdk.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,30 +27,36 @@ public class MainActivity extends AppCompatActivity {
     }
 
     BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
-
-bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        bottomNavigationView.setOnNavigationItemSelectedListener((item) -> {
+/*
         @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        public void onNavigationItemReselected(@NonNull MenuItem item) {
+*/
+
             switch (item.getItemId()) {
 
                 case R.id.page_1:
-                break;
-                    // do something here
-                    return true;
+                    break;
+
 
                 case R.id.page_2:
-                    // do something here
+                    Intent intent1 = new Intent(MainActivity.this, ActivityOne.class);
+                    startActivity(intent1);
+
                     break;
-                    return true;
+
 
                 case R.id.page_3:
-                    // do something here
-                    break;
-                    return true;
-                default: return true;
-            }
-        }
-    });
-    
+                    Intent intent2 = new Intent(MainActivity.this, ActivityTwo.class);
+                    startActivity(intent2);
 
+                    break;
+            }
+            return false;
+        });
+
+
+    }
+
+}
 }
