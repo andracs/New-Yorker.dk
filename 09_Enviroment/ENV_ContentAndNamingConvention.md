@@ -1,5 +1,5 @@
 ## Content/Indhold for mappen Enviroment
-- Development case = DC
+- Github procedures = GP
 
 
 ## Naming convention/navngivningskonvention
@@ -8,4 +8,4 @@
 - Forkortelse af mappenavn, underscore, forkortelse af artefakt, underscore, artefaktnavn.filtype.
 
 <br> Eks. for denne mappe: <br/> 
-- ENV01_DC01_DevelopmentCase.md
+- ENV01_GP01_ProcedureForBranching.md
