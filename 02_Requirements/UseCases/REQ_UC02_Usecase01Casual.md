@@ -1,28 +1,28 @@
-Use case UC1 Casual 
+Use case UC01 Casual 
 ====================
 
 **Main Success Scenario:**
+--------------------
 
-En bruger<sup>1</sup> ønsker, at bestille en new yorker væg via New-Yorker.dks app.
+**Bestil tilbudsforespørgsel på new yorker væg.**
 
-Brugeren åbner appen, vælger produktkataloget og begynder tilbudsforespørgslen. Systemet præsenterer produktkataloget og brugeren udforsker de forskellige elementer. Brugeren udfylder de ønskede mål og vælger ingen tilvalg. Systemet viser en kontaktformular, som brugeren udfylder. Herefter godkendes indholdet af tilbuddet. 
+Brugeren<sup>1</sup> vælger produktkataloget. Systemet præsenterer produktkataloget. Brugeren udforsker de forskellige produkter. Systemet præsenterer produktdetaljer. Brugeren udfylder de ønskede mål. Brugeren vælger ingen tilvalg til tilbudsforespørgslen. Systemet beder om kontaktinformation. Brugeren udfylder kontaktinformationer. Herefter godkender brugeren indholdet af tilbuddet. Systemet sender en email til New-Yorker.dk og den foretrukne forhandler.
 
-Systemet sender en email til New-Yorker.dk og den foretrukne forhandler.
-
-<br>
 
 **Alternative Scenario:**
+--------------------
 
-1\. Hvis brugeren ikke ønsker standardløsningen og vælger tilvalg, brugeren udfylder de ønskede tilvalg i systemet.
+Hvis brugeren ikke ønsker standardløsningen i forhold til glastype. Brugeren angiver den ønskede glastype. Brugeren angiver antal felter glas, med den fortrukne glastype. Systemet medregner tilvalg i glastypen i den samlede pris.
 
-2\. Hvis brugerens ønskede mål ikke fremgår af listen med bredde og højde, så vil systemet foreslå, at brugeren kontakter New-Yorker.dk enten pr. mail eller telefon og henviser brugeren til kontaktsiden.
+Hvis brugeren ønsker new yorker væggen opsat i vådrum fx. badeværelse. Brugeren angiver ønsket om tilvalg af vådrum. Brugeren angiver antal felter glas, med vådrumstilvalg. Systemet medregner tilvalg ift. vådrum i den samlede pris.
 
-3\. Hvis brugeren ønsker en specialløsning til deres new yorker væg. Systemet vil foreslå, at brugeren kontakter New-Yorker.dk enten pr. mail eller telefon, og henviser derfor til kontaktsiden.
+Hvis brugeren ikke ønsker standardløsningen i forhold til rumklang. Brugeren angiver ønsket om akustikpanel(er). Brugeren angiver antal felter glas, med akustikpaneler. Systemet medregner tilvalget akustikpanel(er) i den samlede pris.
 
-4\. Hvis brugeren ikke ønsker, at foretage deres tilbudsforespørgsel i appen, men hellere vil have en personlig samtale med New-Yorker.dk. Brugeren viderestilles til kontaktsiden og kontakter derfra New-Yorker via mail eller pr. telefon.
+Hvis brugerens ønskede mål ikke fremgår af listen med bredde og højde. Brugeren vælger at kontakte New-Yorker.dk. Systemet sender brugeren videre til kontaktoplysninger på New-Yorker.dk.
 
-5\. Hvis brugeren ikke er IT-kyndig, brugeren viderestilles til kontaktsiden og kontakter derfra New-Yorker via mail eller pr. telefon.
+Hvis brugeren ønsker en specialløsning til deres new yorker væg. Brugeren vælger at kontakte New-Yorker.dk. Systemet sender brugeren videre til kontaktoplysninger på New-Yorker.dk.
 
-6\. Hvis appen oplever ustabilitet og derved ikke virker optimalt, brugeren viderestilles til kontaktsiden og kontakter derfra New-Yorker via mail eller pr. telefon.
+Hvis brugeren ikke ønsker, at foretage deres tilbudsforespørgsel direkte i appen, men hellere vil have en personlig samtale med New-Yorker.dk. Brugeren vælger at kontakte New-Yorker.dk. Systemet sender brugeren videre til kontaktoplysninger på New-Yorker.dk.
 
+<br>
 <sup>1</sup>En bruger af appen repræsenterer tre målgrupper: tømrer, forhandlere og slutkunden som skal have new yorker væggen installeret.
