@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">New-Yorker.dk</string>
     <string name="button">Button</string>
-    <string name="text_label_1">home</string>
-    <string name="text_label_2">catalog</string>
-    <string name="text_label_3">contact</string>
+    <string name="text_label_1">Hjem</string>
+    <string name="text_label_2">Katalog</string>
+    <string name="text_label_3">Kontakt</string>
 </resources>
