@@ -1,4 +1,4 @@
-Use case 01 brief
+Use case UC01 brief  
 ===============
 
 UC 1 (hovedscenarie)
