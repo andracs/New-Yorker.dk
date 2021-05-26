@@ -23,13 +23,13 @@
         android:layout_width="451dp"
         android:layout_height="610dp"
         android:contentDescription="@string/contentBackgroundImg"
-        android:scaleType="centerInside"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.991"
-        tools:srcCompat="@drawable/logo" />
+        tools:srcCompat="@drawable/homebackgroundimg" />
 
     <Button
         android:id="@+id/productCatalogButton"
