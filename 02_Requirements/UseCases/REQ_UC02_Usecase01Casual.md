@@ -1,4 +1,4 @@
-Use case UC01 Casual 
+Use case UC01 Casual (Sara)
 ====================
 
 **Main Success Scenario:**
