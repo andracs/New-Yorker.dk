@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">New-Yorker.dk</string>
     <string name="button">Button</string>
-    <string name="text_label_1">home</string>
-    <string name="text_label_2">catalog</string>
-    <string name="text_label_3">contact</string>
+    <string name="buttomNavigationIconLabelHome">home</string>
+    <string name="buttomNavigationIconLabelCatalog">catalog</string>
+    <string name="buttomNavigationIconLabelContact">contact</string>
+
+    <string name="contentLogo">Logo New-Yorker</string>
+    <string name="contentBackgroundImg">Background image</string>
+    <string name="productCatalogButton">Produktkatalog</string>
+    <string name="contactButton">Kontakt New-Yorker</string>
+
+
+
+
 </resources>
