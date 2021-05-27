@@ -22,13 +22,17 @@
     <string name="productCatalogTitle">Produktkatalog</string>
     <string name="productCatalogText">Klik på illustrationerne for at se de specifikke detaljer og mål.</string>
 
+    <string name="backButton">Tilbage</string>
     <string name="qrTitle">ENKELTE FAG 1 fag M/ 4 glas</string>
     <string name="qrText">Vælg målene fra dropdown, findes de ønskede mål ikke i valgmulighederne, kontakt os da venligst på tlf. 12345678. </string>
     <string name="sentQRButton">Send tilbudsforespørgsel</string>
-
-
     <string name="qrDescriptionLabel">Vejledende mål</string>
     <string name="qrWidthLabel">Bredde:</string>
     <string name="qrHeightLabel">Højde:</string>
+
+    <string-array name="width_spinner">
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
 
 </resources>

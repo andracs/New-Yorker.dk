@@ -60,7 +60,6 @@
             android:background="@color/gold"
             android:text="@string/contactButton"
             android:textAlignment="center"
-            android:onClick="changeActivityToQuotationRequest"
             android:textColor="@color/white" />
     </LinearLayout>
 
