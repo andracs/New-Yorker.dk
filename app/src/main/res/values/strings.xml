@@ -16,4 +16,7 @@
     <string name="category4">Afskærmning på hjul</string>
     <string name="category5">Katelog item</string>
 
+    <string name="productCatalogTitle">Produktkatalog</string>
+    <string name="productCatalogText">Klik på illustrationerne for at se de specifikke detaljer og mål.</string>
+
 </resources>

@@ -1,19 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--toolbar include-->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/productCatalogTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/productCatalogTitle"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/productCatalogText"
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/productCatalogText"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/category1"
@@ -26,7 +59,7 @@
                 android:paddingBottom="20dp"
                 android:text="@string/category1"
                 android:textColor="@color/black"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -39,24 +72,24 @@
                     android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:src="@drawable/enkeltfagimg01"
-                    android:contentDescription="Enkelt fag"/>
+                    android:contentDescription="Enkelt fag"
+                    android:src="@drawable/enkeltfagimg01" />
 
                 <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:src="@drawable/enkeltfagimg02"
-                    android:contentDescription="Enkelt fag med 8 glas"/>
+                    android:contentDescription="Enkelt fag med 8 glas"
+                    android:src="@drawable/enkeltfagimg02" />
 
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:src="@drawable/enkeltfagimg03"
-                    android:contentDescription="Enkelt fag med 6 glas"/>
+                    android:contentDescription="Enkelt fag med 6 glas"
+                    android:src="@drawable/enkeltfagimg03" />
 
             </LinearLayout>
 
@@ -69,9 +102,9 @@
                 android:paddingTop="20dp"
                 android:paddingRight="20dp"
                 android:paddingBottom="20dp"
+                android:text="@string/category2"
                 android:textColor="@color/black"
-                android:textSize="20sp"
-                android:text="@string/category2" />
+                android:textSize="20sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -84,24 +117,24 @@
                     android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:src="@drawable/doerimg01"
-                    android:contentDescription="Dør enkelt"/>
+                    android:contentDescription="Dør enkelt"
+                    android:src="@drawable/doerimg01" />
 
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:src="@drawable/doerimg02"
-                    android:contentDescription="Dør dobbelt"/>
+                    android:contentDescription="Dør dobbelt"
+                    android:src="@drawable/doerimg02" />
 
                 <ImageView
                     android:id="@+id/imageView6"
                     android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:src="@drawable/doerimg03"
-                    android:contentDescription="Dør med fag"/>
+                    android:contentDescription="Dør med fag"
+                    android:src="@drawable/doerimg03" />
 
             </LinearLayout>
 
@@ -114,9 +147,9 @@
                 android:paddingTop="20dp"
                 android:paddingRight="20dp"
                 android:paddingBottom="20dp"
+                android:text="@string/category3"
                 android:textColor="@color/black"
-                android:textSize="20sp"
-                android:text="@string/category3" />
+                android:textSize="20sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -129,26 +162,27 @@
                     android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:src="@drawable/fagmdoerimg01"
-                    android:contentDescription="Fag med dør"/>
+                    android:contentDescription="Fag med dør"
+                    android:src="@drawable/fagmdoerimg01" />
 
                 <ImageView
                     android:id="@+id/imageView8"
                     android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:src="@drawable/fagmdoerimg02"
-                    android:contentDescription="Fag med dør"/>
+                    android:contentDescription="Fag med dør"
+                    android:src="@drawable/fagmdoerimg02" />
 
                 <ImageView
                     android:id="@+id/imageView9"
                     android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:src="@drawable/fagmdoerimg03"
-                    android:contentDescription="Fag med dør"/>
+                    android:contentDescription="Fag med dør"
+                    android:src="@drawable/fagmdoerimg03" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -201,7 +235,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="15dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="20dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -232,5 +266,4 @@
 
         </LinearLayout>
     </ScrollView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
