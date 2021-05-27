@@ -17,6 +17,10 @@
         app:menu="@menu/bottom_navigation_menu"
         tools:layout_editor_absoluteX="-2dp"
         android:layout_alignParentBottom="true"
+        android:background="@color/black"
+        app:itemRippleColor="@color/white"
+        app:itemIconTint="@color/icons_color"
+        app:itemTextColor="@color/icons_color"
         />
 
     <TextView

@@ -1,5 +1,6 @@
 package com.example.view;
 
+import android.view.Menu;
 import android.view.View;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,18 +21,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
 
-    public void changeActivityToProductCatalog(View view) {
-        setContentView(R.layout.productcatalog);
-    }
+
 
     BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setOnNavigationItemSelectedListener((item) -> {
-/*
+
+    Menu menu = bottomNavigationView.getMenu();
+    MenuItem menuItem = menu.getItem(0);
+    menuItem.setChecked(true);
+
+    bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
-        public void onNavigationItemReselected(@NonNull MenuItem item) {
-*/
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+
 
             switch (item.getItemId()) {
 
@@ -53,10 +56,13 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
             return false;
+        }
         });
-
-
     }
 
+    public void changeActivityToProductCatalog(View view) {
+        setContentView(R.layout.productcatalog);
+    }
 }
-}
+
+

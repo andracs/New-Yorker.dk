@@ -17,16 +17,31 @@
         app:menu="@menu/bottom_navigation_menu"
         tools:layout_editor_absoluteX="-2dp"
         android:layout_alignParentBottom="true"
+        android:background="@color/black"
+        app:itemRippleColor="@color/white"
+        app:itemIconTint="@color/icons_color"
+        app:itemTextColor="@color/icons_color"
         />
 
-    <TextView
-        android:id="@+id/activityTitle1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ActivityOne"
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/activityTitle1"
+                android:layout_width="348dp"
+                android:layout_height="match_parent"
+                android:text="ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne vActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne ActivityOne v" />
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

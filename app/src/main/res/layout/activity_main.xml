@@ -64,6 +64,23 @@
         app:menu="@menu/bottom_navigation_menu"
         tools:layout_editor_absoluteX="-2dp"
         android:layout_alignParentBottom="true"
+        android:background="@color/black"
+        app:itemRippleColor="@color/white"
+        app:itemIconTint="@color/icons_color"
+        app:itemTextColor="@color/icons_color"
+
         />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="391dp"
+        tools:layout_editor_absoluteY="123dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
