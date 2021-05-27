@@ -27,12 +27,23 @@
     <string name="qrText">Vælg målene fra dropdown, findes de ønskede mål ikke i valgmulighederne, kontakt os da venligst på tlf. 12345678. </string>
     <string name="sentQRButton">Send tilbudsforespørgsel</string>
     <string name="qrDescriptionLabel">Vejledende mål</string>
-    <string name="qrWidthLabel">Bredde:</string>
-    <string name="qrHeightLabel">Højde:</string>
+    <string name="qrWidthLabel">Bredde: 40-60cm</string>
+    <string name="qrHeightLabel">Højde: 180-240cm</string>
 
     <string-array name="width_spinner">
-        <item>Uranus</item>
-        <item>Neptune</item>
+        <item>40cm</item>
+        <item>50cm</item>
+        <item>60cm</item>
+    </string-array>
+
+    <string-array name="height_spinner">
+        <item>180cm</item>
+        <item>190cm</item>
+        <item>200cm</item>
+        <item>210cm</item>
+        <item>220cm</item>
+        <item>230cm</item>
+        <item>240cm</item>
     </string-array>
 
 </resources>

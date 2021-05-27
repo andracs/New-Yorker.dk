@@ -12,34 +12,35 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
 
-    <TextView
-        android:id="@+id/backButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="changeActivityToProductCatalog"
-        android:text="@string/backButton"
-        android:fontFamily="sans-serif-black"
-        android:paddingLeft="20dp"
-        android:paddingTop="20dp"
-        android:paddingRight="20dp"
-        android:textColor="@color/black"
-        android:textSize="20sp" />
-
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="1000dp"
+            android:orientation="vertical"
+            android:background="@drawable/test5">
+
+            <TextView
+                android:id="@+id/backButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="changeActivityToProductCatalog"
+                android:text="@string/backButton"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <ImageView
                 android:id="@+id/qrImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:layout_marginTop="80dp"
                 android:contentDescription="Product"
                 android:src="@drawable/testimg" />
 
@@ -52,7 +53,7 @@
                 android:paddingTop="20dp"
                 android:paddingRight="20dp"
                 android:text="@string/qrTitle"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <TextView
@@ -65,53 +66,74 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="20dp"
                 android:text="@string/qrText"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/qrDescriptionLabel"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:fontFamily="sans-serif-medium"
-                android:paddingTop="20dp"
-                android:paddingRight="20dp"
-                android:paddingBottom="20dp"
-                android:text="@string/qrDescriptionLabel"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
+                    android:id="@+id/qrDescriptionLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingTop="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/qrDescriptionLabel"
+                android:textColor="@color/white"
+                    android:textSize="14sp" />
 
-            <TextView
-                android:id="@+id/qrWidthLabel"
+            <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:fontFamily="sans-serif-medium"
-                android:paddingTop="20dp"
-                android:paddingRight="20dp"
-                android:paddingBottom="20dp"
-                android:text="@string/qrWidthLabel"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:layout_height="match_parent">
 
-            <Spinner
-                android:id="@+id/width_spinner"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="8dp" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/qrHeightLabel"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:fontFamily="sans-serif-medium"
-                android:paddingTop="20dp"
-                android:paddingRight="20dp"
-                android:paddingBottom="20dp"
-                android:text="@string/qrHeightLabel"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/qrWidthLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingTop="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/qrWidthLabel"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <Spinner
+                        android:id="@+id/width_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/qrHeightLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingTop="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/qrHeightLabel"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <Spinner
+                        android:id="@+id/height_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp" />
+                </TableRow>
+            </TableLayout>
 
             <Button
                 android:id="@+id/sentQRButton"
