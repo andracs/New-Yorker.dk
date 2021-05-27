@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         //Remove the title bar from activity_main
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+/*        requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide(); //hide actionbar
+        getSupportActionBar().hide(); //hide actionbar*/
         setContentView(R.layout.activity_main);
     }
 
