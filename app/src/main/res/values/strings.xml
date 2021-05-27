@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">New-Yorker.dk</string>
+    <string name="activityNameProductCatalog">Produktkatalog</string>
+    <string name="activityNameProductContact">Kontakt New-Yorker</string>
+
     <string name="button">Button</string>
     <string name="buttomNavigationIconLabelHome">Home</string>
     <string name="buttomNavigationIconLabelCatalog">Catalog</string>

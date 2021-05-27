@@ -263,7 +263,6 @@
                     android:src="@drawable/empty" />
 
             </LinearLayout>
-
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
