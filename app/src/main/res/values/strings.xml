@@ -1,16 +1,19 @@
 <resources>
     <string name="app_name">New-Yorker.dk</string>
     <string name="button">Button</string>
-    <string name="buttomNavigationIconLabelHome">home</string>
-    <string name="buttomNavigationIconLabelCatalog">catalog</string>
-    <string name="buttomNavigationIconLabelContact">contact</string>
+    <string name="buttomNavigationIconLabelHome">Home</string>
+    <string name="buttomNavigationIconLabelCatalog">Catalog</string>
+    <string name="buttomNavigationIconLabelContact">Contact</string>
 
     <string name="contentLogo">Logo New-Yorker</string>
     <string name="contentBackgroundImg">Background image</string>
     <string name="productCatalogButton">Produktkatalog</string>
     <string name="contactButton">Kontakt New-Yorker</string>
 
-
-
+    <string name="category1">Enkeltfag</string>
+    <string name="category2">Døre</string>
+    <string name="category3">Fag med døre</string>
+    <string name="category4">Afskærmning på hjul</string>
+    <string name="category5">KatelogItem</string>
 
 </resources>
