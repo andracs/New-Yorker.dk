@@ -4,9 +4,9 @@
     <string name="activityNameProductContact">Kontakt New-Yorker</string>
 
     <string name="button">Button</string>
-    <string name="buttomNavigationIconLabelHome">Home</string>
-    <string name="buttomNavigationIconLabelCatalog">Catalog</string>
-    <string name="buttomNavigationIconLabelContact">Contact</string>
+    <string name="buttomNavigationIconLabelHome">Hjem</string>
+    <string name="buttomNavigationIconLabelCatalog">Katalog</string>
+    <string name="buttomNavigationIconLabelContact">Kontakt</string>
 
     <string name="contentLogo">Logo New-Yorker</string>
     <string name="contentBackgroundImg">Background image</string>

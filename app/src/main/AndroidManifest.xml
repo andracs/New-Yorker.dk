@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewYorkerdk">
-        <activity android:name="com.example.view.QuotationRequest"></activity>
+        <activity android:name="com.example.view.Contact"></activity>
+        <activity android:name="com.example.view.QuotationRequest" />
         <activity android:name="com.example.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
