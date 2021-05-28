@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
+//Bundmenu
     BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
 
     Menu menu = bottomNavigationView.getMenu();
@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
     bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
-
 
             switch (item.getItemId()) {
 
