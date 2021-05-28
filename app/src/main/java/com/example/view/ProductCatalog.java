@@ -21,9 +21,9 @@ public class ProductCatalog extends AppCompatActivity {
         setContentView(R.layout.product_catalog);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Groups history");
-        Log.d("TAGS", "Title = " + toolbar.getTitle());
+        toolbar.setTitle("Produktkatalog");
 
+        Log.d("TAGS", "Title = " + toolbar.getTitle());
 
         //BottomNavigationMenu start
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);

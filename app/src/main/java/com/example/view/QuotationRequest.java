@@ -1,8 +1,13 @@
 package com.example.view;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -10,6 +15,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.new_yorkerdk.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class QuotationRequest extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -17,6 +23,9 @@ public class QuotationRequest extends AppCompatActivity implements AdapterView.O
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quotation_request);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("Enkeltfag");
 
         Spinner widthspinner = (Spinner) findViewById(R.id.width_spinner);
 
@@ -40,7 +49,6 @@ public class QuotationRequest extends AppCompatActivity implements AdapterView.O
         // Apply the adapter to the spinner
         heightspinner.setAdapter(heightadapter);
         heightspinner.setOnItemSelectedListener(this);
-
     }
 
 

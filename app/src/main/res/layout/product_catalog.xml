@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,282 +12,276 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
 
-        <ScrollView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/productCatalogTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/productCatalogTitle"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/productCatalogText"
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/productCatalogText"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/category1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/category1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/productCatalogTitle"
-                    android:layout_width="match_parent"
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="115dp"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-black"
-                    android:paddingLeft="20dp"
-                    android:paddingTop="20dp"
-                    android:paddingRight="20dp"
-                    android:text="@string/productCatalogTitle"
-                    android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Enkelt fag"
+                    android:onClick="changeActivityToQuotationRequest"
+                    android:src="@drawable/enkeltfagimg01" />
 
-                <TextView
-                    android:id="@+id/productCatalogText"
-                    android:layout_width="298dp"
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="115dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center"
-                    android:paddingLeft="20dp"
-                    android:paddingTop="30dp"
-                    android:paddingRight="20dp"
-                    android:paddingBottom="20dp"
-                    android:text="@string/productCatalogText"
-                    android:textColor="@color/black"
-                    android:textSize="14sp" />
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Enkelt fag med 8 glas"
+                    android:src="@drawable/enkeltfagimg02" />
 
-                <TextView
-                    android:id="@+id/category1"
-                    android:layout_width="match_parent"
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="115dp"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-black"
-                    android:paddingLeft="20dp"
-                    android:paddingTop="20dp"
-                    android:paddingRight="20dp"
-                    android:paddingBottom="20dp"
-                    android:text="@string/category1"
-                    android:textColor="@color/black"
-                    android:textSize="20sp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView1"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Enkelt fag"
-                        android:onClick="changeActivityToQuotationRequest"
-                        android:src="@drawable/enkeltfagimg01" />
-
-                    <ImageView
-                        android:id="@+id/imageView2"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Enkelt fag med 8 glas"
-                        android:src="@drawable/enkeltfagimg02" />
-
-                    <ImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Enkelt fag med 6 glas"
-                        android:src="@drawable/enkeltfagimg03" />
-
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/category2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-black"
-                    android:paddingLeft="20dp"
-                    android:paddingTop="20dp"
-                    android:paddingRight="20dp"
-                    android:paddingBottom="20dp"
-                    android:text="@string/category2"
-                    android:textColor="@color/black"
-                    android:textSize="20sp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView4"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Dør enkelt"
-                        android:src="@drawable/doerimg01" />
-
-                    <ImageView
-                        android:id="@+id/imageView5"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Dør dobbelt"
-                        android:src="@drawable/doerimg02" />
-
-                    <ImageView
-                        android:id="@+id/imageView6"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Dør med fag"
-                        android:src="@drawable/doerimg03" />
-
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/category3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-black"
-                    android:paddingLeft="20dp"
-                    android:paddingTop="20dp"
-                    android:paddingRight="20dp"
-                    android:paddingBottom="20dp"
-                    android:text="@string/category3"
-                    android:textColor="@color/black"
-                    android:textSize="20sp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView7"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Fag med dør"
-                        android:src="@drawable/fagmdoerimg01" />
-
-                    <ImageView
-                        android:id="@+id/imageView8"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Fag med dør"
-                        android:src="@drawable/fagmdoerimg02" />
-
-                    <ImageView
-                        android:id="@+id/imageView9"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Fag med dør"
-                        android:src="@drawable/fagmdoerimg03" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView10"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:contentDescription="Fag med dør"
-                        android:src="@drawable/fagmdoerimg04" />
-
-                    <ImageView
-                        android:id="@+id/imageView11"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:contentDescription="Fag med dør"
-                        android:src="@drawable/empty" />
-
-                    <ImageView
-                        android:id="@+id/imageView12"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:contentDescription="Fag med dør"
-                        android:src="@drawable/empty" />
-
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/category"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-black"
-                    android:paddingLeft="20dp"
-                    android:paddingTop="20dp"
-                    android:paddingRight="20dp"
-                    android:paddingBottom="20dp"
-                    android:text="@string/category4"
-                    android:textColor="@color/black"
-                    android:textSize="20sp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginBottom="20dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView13"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Empty"
-                        android:src="@drawable/empty" />
-
-                    <ImageView
-                        android:id="@+id/imageView14"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Empty"
-                        android:src="@drawable/empty" />
-
-                    <ImageView
-                        android:id="@+id/imageView15"
-                        android:layout_width="115dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:contentDescription="Empty"
-                        android:src="@drawable/empty" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <com.google.android.material.bottomnavigation.BottomNavigationView
-                        android:id="@+id/bottom_navigation"
-                        android:layout_width="match_parent"
-                        app:layout_constraintVertical_bias="1.0"
-                        app:menu="@menu/bottom_navigation_menu"
-                        tools:layout_editor_absoluteX="-2dp"
-                        android:background="@color/black"
-                        app:itemRippleColor="@color/white"
-                        app:itemIconTint="@color/icons_color"
-                        app:itemTextColor="@color/icons_color"
-                        android:layout_gravity="bottom"
-                        android:layout_height="wrap_content"
-                        />
-
-                </LinearLayout>
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Enkelt fag med 6 glas"
+                    android:src="@drawable/enkeltfagimg03" />
 
             </LinearLayout>
 
-        </ScrollView>
+            <TextView
+                android:id="@+id/category2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/category2"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
-</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Dør enkelt"
+                    android:src="@drawable/doerimg01" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Dør dobbelt"
+                    android:src="@drawable/doerimg02" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Dør med fag"
+                    android:src="@drawable/doerimg03" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/category3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/category3"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Fag med dør"
+                    android:src="@drawable/fagmdoerimg01" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Fag med dør"
+                    android:src="@drawable/fagmdoerimg02" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Fag med dør"
+                    android:src="@drawable/fagmdoerimg03" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="Fag med dør"
+                    android:src="@drawable/fagmdoerimg04" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="Fag med dør"
+                    android:src="@drawable/empty" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="Fag med dør"
+                    android:src="@drawable/empty" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/category4"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Empty"
+                    android:src="@drawable/empty" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Empty"
+                    android:src="@drawable/empty" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Empty"
+                    android:src="@drawable/empty" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="695dp"
+        android:background="@color/black"
+        app:itemIconTint="@color/icons_color"
+        app:itemRippleColor="@color/white"
+        app:itemTextColor="@color/icons_color"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_navigation_menu"
+        tools:layout_editor_absoluteX="-2dp" />
+
+</RelativeLayout>

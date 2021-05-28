@@ -6,7 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.view.Contact">
 
-
+    <!--toolbar include-->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
