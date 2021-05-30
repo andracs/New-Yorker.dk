@@ -1,5 +1,5 @@
 # Procedure for open pull request: 
-
+<br>
 Pull requests er en kernefaktor i et gruppesamarbejde på GitHub. Når man åbner et pull request foreslår man ændringer til det fælles projekt og beder samtidig en anden om at gennemgå dem og trække/merge dem ind i projektet. Pull requests viser indholdet fra begge branches så du kan sammenligne. Ændringerne vises i henholdsvis rødt for det der er blevet slettet og grønt for det der er blevet tilføjet. Processen foregår således:
 
 ![Billede 1](https://github.com/LouiseFuglsang/New-Yorker.dk/blob/main/assets/AS09_AS_ProcedureForPull%20Request01.png)
