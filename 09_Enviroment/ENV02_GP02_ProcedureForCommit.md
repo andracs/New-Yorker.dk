@@ -5,9 +5,9 @@ Procedure for commits i GitHub (Sara)
 
 1.  Læs procedure for branches *(ENV01_GP01_ProcedureForBranching.md). 
 
-2.  Undervejs ved foretagelse af ændringer i indholdet af en branch, så skal man løbende commite sit arbejde til GitHub. Dette skal ske mindst én gang om dagen og helst én gang i timen. 
+2.  Undervejs ved foretagelse af ændringer i indholdet af en branch, så skal man løbende committe sit arbejde til GitHub. Dette skal ske mindst én gang om dagen og helst én gang i timen. 
 
-3.  Når der er udarbejdet en ny funktionel feature til systemet, skal dette ligeledes commites.
+3.  Når der er udarbejdet en ny funktionel feature til systemet, skal dette ligeledes committes.
 
 <br>
 
