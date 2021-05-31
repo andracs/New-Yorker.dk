@@ -1,6 +1,6 @@
 ## Content/Indhold for mappen Design
 - Design model = DEM
-- Software architecture document = SAD
+- User-Interface Prototype = UIP
 
 
 ## Naming convention/navngivningskonvention
