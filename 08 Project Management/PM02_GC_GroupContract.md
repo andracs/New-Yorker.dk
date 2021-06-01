@@ -1,4 +1,4 @@
-Gruppekontrakt (Sara)
+<h1>Gruppekontrakt (Sara)</h1>
 
 Vi aftaler, at der dagligt i hverdagene vil være et morgenmøde kl. 08:30. Her vil vi gennemgå dagens agenda og uddele dagens opgaver. Samtidig vil vi holde hinanden opdateret på om tingene skrider planmæssigt frem og hvordan det går med udarbejdelsen af indholdet til både rapport og selve projektet.
 
