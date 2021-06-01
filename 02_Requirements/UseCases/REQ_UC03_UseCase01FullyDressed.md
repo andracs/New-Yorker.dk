@@ -8,7 +8,7 @@ Stakeholders and Interests | New-Yorker.dk |
 Preconditions |	UC01, Væg er valgt, Navn og kontaktinfo er angivet |
 Succes Guarantee | Tilbudsbestillingen bliver afsendt korrekt |
 Main Succes Scenario |	1. Brugeren trykker på Bestil Tilbud <br> 2. Systemet præsenterer produktkatalog <br> 3. Brugeren vælger produkt(er) <br> 4. Brugeren lægger produkt(er) i kurv <br> 5. Systemet præsenterer popup besked hvor brugeren skal vælge enter "Se kurv" eller "Shop videre" <br> 6. Brugeren vælger kurv <br> 7. Systemet præsenterer kurven <br> 8. Systemet beder brugeren udfylde kontaktinformationer <br> 9. Brugeren udfylder kontaktinformation <br> 10. Systemet præsenterer oversigt over tilbudsforespørgsel og kontaktinformation <br> 11. Brugeren godkender afsendelse <br> 12. Systemet sender forespørgslen og præsenterer brugeren for besked om at afsendelsen er sket korrekt |
-Extensions | Brugeren vælger tilvalg frem for vægge <br> 2. Brugeren vælger "Shop videre" |
+Extensions | 1. Brugeren vælger tilvalg frem for vægge <br> 2. Brugeren vælger "Shop videre" |
 Special Requirements | NA |
 Technology and Data Variations List | NA |
 Frequency of Occurrence | NA |
