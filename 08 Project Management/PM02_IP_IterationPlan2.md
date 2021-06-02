@@ -34,4 +34,4 @@ Iterationsplan 2
 10. Planlægning af kundemøde 3 færdiggjort
 11. Tidsregistrering for alle gruppemedlemmer færdiggjort
 12. Usikkerhed omkring brugen af Firebase elimineret
-13. Usikkerhed omkring kundens holdning til designet og workflowet i bestilling af tilbudsforespørgsel elimineret. 
+13. Usikkerhed omkring kundens holdning til designet og workflowet i bestilling af tilbudsforespørgsel elimineret 
