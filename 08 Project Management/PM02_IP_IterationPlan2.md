@@ -14,20 +14,24 @@ Iterationsplan 2
 11. Lav SD
 12. Lav klassediagram
 13. Lav proof of concept Firebase
-14. Lav faseplan 3
-15. Lav iterationsplan for iteration 3
-16. Opret issues til iteration 3
+14. Lav første tekniske prototype
+15. Kvalitetsikring af den tekniske prototype
+16. Lav justeringer ift. faseplanen
+17. Lav iterationsplan for iteration 3
+18. Opret issues til iteration 3
 
 **Milepæle for Elaboration:**
 
-1.  Alle use cases fully dressed færdigt.
-2.  Use case diagram færdigt.
-3.  Domænemodel færdig.
-4.  AD færdigt.
-5.  SSD færdigt.
-6.  SD færdigt.
-7.  OC'er færdigt.
-8.  Udviklingsmiljø GitHub opsat med GitHub Projects board færdiggjort for iteration 2.
-9.  Første teknisk prototype og planlægning af kundemøde 3 færdiggjort.
-10. Tidsregistrering for alle gruppemedlemmer færdiggjort. 
-11. Usikkerhed omkring brugen af Firebase elimineret.
+1.  Alle use cases fully dressed færdigt
+2.  Use case diagram færdigt
+3.  Domænemodel færdig
+4.  AD færdigt
+5.  SSD færdigt
+6.  SD færdigt
+7.  OC'er færdigt
+8.  Udviklingsmiljø GitHub opsat med GitHub Projects board færdiggjort for iteration 2
+9.  Første teknisk prototype færdiggjort
+10. Planlægning af kundemøde 3 færdiggjort
+11. Tidsregistrering for alle gruppemedlemmer færdiggjort
+12. Usikkerhed omkring brugen af Firebase elimineret
+13. Usikkerhed omkring kundens holdning til designet og workflowet i bestilling af tilbudsforespørgsel elimineret. 
