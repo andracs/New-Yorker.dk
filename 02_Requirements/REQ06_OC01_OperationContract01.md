@@ -4,11 +4,11 @@
 
 **Cross reference:**  UC01
 
-**Pre-conditions:** En bruger *br* eksisterer
+**Pre-conditions:** En bruger br eksisterer
 
 **Post-conditions**
 
--       Et *GlassWall* objekt gw blev skabt
+-       Et GlassWall objekt gw blev skabt
 
 -       gw's attributter blev angivet
 
