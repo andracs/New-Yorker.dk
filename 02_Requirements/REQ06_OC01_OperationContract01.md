@@ -1,6 +1,6 @@
 **OC01 Bestil tilbudsforespørgsel på New Yorker væg**
 
-**Operation:** make_QuotationRequest()
+**Operation:** makeQuotationRequest()
 
 **Cross reference:**  UC01
 
