@@ -14,11 +14,10 @@ Iterationsplan 2
 11. Lav SD
 12. Lav klassediagram
 13. Lav proof of concept Firebase
-14. Lav første tekniske prototype
-15. Kvalitetsikring af den tekniske prototype
-16. Lav justeringer ift. faseplanen
-17. Lav iterationsplan for iteration 3
-18. Opret issues til iteration 3
+14. Kvalitetsikring af den tekniske prototype
+15. Lav justeringer ift. faseplanen
+16. Lav iterationsplan for iteration 3
+17. Opret issues til iteration 3
 
 **Milepæle for Elaboration:**
 
