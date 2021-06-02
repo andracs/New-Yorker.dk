@@ -1,6 +1,8 @@
 Iterationsplan 2
 ================
 
+Iterationsperiode: 24/5-4/6 2021
+
 1.  Færdiggør DOM
 2.  Færdiggør visionsdokument
 3.  Færdiggør risikoanalyse
