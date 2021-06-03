@@ -3,6 +3,6 @@ package model;
 public class Field {
 
         int price;
-        int coordinateX;
-        int coordinateY;
+ //     int coordinateX
+ //     int coordinateY;
 }

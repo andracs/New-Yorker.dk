@@ -2,6 +2,6 @@ package model;
 
 public class LockCase {
 
-    boolean type;
+     type;
     int extraPrice;
 }

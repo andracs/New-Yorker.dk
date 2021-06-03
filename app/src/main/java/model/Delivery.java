@@ -2,6 +2,6 @@ package model;
 
 public class Delivery {
 
-    boolean type;
+    int type;
     int extraPrice;
 }

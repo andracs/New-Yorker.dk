@@ -1,9 +1,9 @@
 package model;
 
-public class Contact {
+public class Address {
 
     String name;
-    String adress;
+    String address;
     int postalCode;
     String city;
     String country;
