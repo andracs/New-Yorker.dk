@@ -3,5 +3,6 @@ package model;
 public class EnviromentType {
 
     boolean type;
-    int extraPricePerField;
+    int extraPricePerField = 480;
+
 }

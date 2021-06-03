@@ -11,4 +11,5 @@ public class GlassWall {
     String colour;
     int totalPrice;
 
+
 }
